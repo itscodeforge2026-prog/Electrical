@@ -1,0 +1,20 @@
+{
+  "name": "vk-electrical-solutions-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Virat Kohli Electrical & Automation Solutions",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon --ignore data/ server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "vk-electrical-solutions": "file:.."
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
