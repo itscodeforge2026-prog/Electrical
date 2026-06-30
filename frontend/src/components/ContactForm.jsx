@@ -82,7 +82,7 @@ const ContactForm = () => {
     setErrors({});
 
     try {
-      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const apiUrl = import.meta.env.VITE_API_URL || 'https://vk-electrical-backend.onrender.com';
       const response = await fetch(`${apiUrl}/api/inquiry`, {
         method: 'POST',
         headers: {

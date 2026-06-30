@@ -13,12 +13,8 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Enable CORS for frontend Vite application
-app.use(cors({
-  origin: ['http://localhost:5173', 'http://127.0.0.1:5173'],
-  methods: ['GET', 'POST'],
-  credentials: true
-}));
+// Enable CORS for all frontend clients
+app.use(cors());
 
 app.use(express.json());
 
