@@ -58,7 +58,7 @@ const Footer = () => {
     { name: 'Facebook', icon: <FacebookIcon className="h-5 w-5" />, href: 'https://facebook.com' },
     { name: 'Instagram', icon: <InstagramIcon className="h-5 w-5" />, href: 'https://instagram.com' },
     { name: 'LinkedIn', icon: <LinkedinIcon className="h-5 w-5" />, href: 'https://linkedin.com' },
-    { name: 'WhatsApp', icon: <MessageSquare className="h-5 w-5" />, href: 'https://wa.me/919876543210' },
+    { name: 'WhatsApp', icon: <MessageSquare className="h-5 w-5" />, href: 'https://wa.me/919265808905' },
   ];
 
   return (
@@ -167,12 +167,12 @@ const Footer = () => {
             </h3>
             <div className="flex items-start space-x-3">
               <Phone className="h-5 w-5 text-brand-secondary shrink-0 mt-0.5" />
-              <span>+91 9876543210</span>
+              <span>+91 9265808905</span>
             </div>
             <div className="flex items-start space-x-3">
               <Mail className="h-5 w-5 text-brand-secondary shrink-0 mt-0.5" />
-              <a href="mailto:viratkohli@gmail.com" className="hover:text-white transition-colors">
-                viratkohli@gmail.com
+              <a href="mailto:chandnanikaran5@gmail.com" className="hover:text-white transition-colors">
+                chandnanikaran5@gmail.com
               </a>
             </div>
             <div className="flex items-start space-x-3">

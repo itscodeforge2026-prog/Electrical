@@ -46,10 +46,9 @@ const Services = () => {
       description: 'Pre-commissioning and routine checks to safeguard power infrastructure.',
       details: [
         'Power & Distribution Transformer Testing',
-        'HV & LV Motor Performance Tests',
         'Insulation & Cable Integrity Scans',
         'Panel Inspections & Preventive Relays',
-        'Electrical Safety Audits & Compliance'
+        'Other Primary & Secondary Testing'
       ],
       icon: <ShieldCheck className="h-6 w-6 text-brand-secondary" />
     }

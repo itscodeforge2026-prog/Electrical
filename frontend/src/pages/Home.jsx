@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import Hero from '../components/Hero';
-import AboutOwner from '../components/AboutOwner';
 import WhyChooseUs from '../components/WhyChooseUs';
 import ServicesPreview from '../components/ServicesPreview';
 
@@ -13,7 +12,6 @@ const Home = () => {
   return (
     <div className="w-full">
       <Hero />
-      <AboutOwner />
       <WhyChooseUs />
       <ServicesPreview />
     </div>

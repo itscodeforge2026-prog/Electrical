@@ -13,15 +13,15 @@ const Contact = () => {
     {
       icon: <Phone className="h-6 w-6 text-brand-secondary" />,
       title: 'Call Us Now',
-      text: '+91 9876543210',
-      href: 'tel:+919876543210',
+      text: '+91 9265808905',
+      href: 'tel:+919265808905',
       sub: 'Mon - Sat: 9am - 7pm'
     },
     {
       icon: <Mail className="h-6 w-6 text-brand-secondary" />,
       title: 'Email Queries',
-      text: 'viratkohli@gmail.com',
-      href: 'mailto:viratkohli@gmail.com',
+      text: 'chandnanikaran5@gmail.com',
+      href: 'mailto:chandnanikaran5@gmail.com',
       sub: 'Response within 24 hours'
     },
     {

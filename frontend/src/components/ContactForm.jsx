@@ -20,6 +20,9 @@ const ContactForm = () => {
 
   const services = [
     { value: 'Electrical Services', label: 'Electrical Services' },
+    { value: 'Manpower Supply', label: 'Manpower Supply' },
+    { value: 'Electrical Design', label: 'Electrical Design' },
+    { value: 'Testing of Electrical Equipment', label: 'Testing of Electrical Equipment' },
     { value: 'Automation Services', label: 'Automation Services' },
     { value: 'Website Development', label: 'Website Development' },
     { value: 'App Development', label: 'App Development' },

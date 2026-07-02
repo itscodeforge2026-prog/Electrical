@@ -29,7 +29,7 @@ const FloatingActions = () => {
       {/* Bottom Left: Call Now Floating Button */}
       <div className="fixed bottom-6 left-6 z-30">
         <a
-          href="tel:+919876543210"
+          href="tel:+919265808905"
           className="relative flex items-center justify-center w-14 h-14 bg-gradient-to-r from-blue-600 to-brand-secondary text-white rounded-full shadow-lg hover:scale-110 active:scale-95 transition-transform duration-200 group"
           aria-label="Call Now"
         >
@@ -39,7 +39,7 @@ const FloatingActions = () => {
           
           {/* Tooltip */}
           <span className="absolute left-16 scale-0 group-hover:scale-100 transition-all duration-200 origin-left bg-slate-900 text-white text-xs px-3 py-1.5 rounded-lg whitespace-nowrap shadow-md">
-            Call Us: +91 9876543210
+            Call Us: +91 9265808905
           </span>
         </a>
       </div>
@@ -64,7 +64,7 @@ const FloatingActions = () => {
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/919876543210"
+          href="https://wa.me/919265808905"
           target="_blank"
           rel="noopener noreferrer"
           className="relative flex items-center justify-center w-14 h-14 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg hover:scale-110 active:scale-95 transition-transform duration-200 group"
